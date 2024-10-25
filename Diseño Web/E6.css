@@ -1,0 +1,9 @@
+.testimonials__card--content{
+    opacity: 50%;
+    background-color: lightgreen;
+}
+
+.testimonials__card--content h3{
+    font-family: 'Times New Roman', Times, serif;
+    size: 100px;
+}
