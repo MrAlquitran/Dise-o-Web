@@ -1,0 +1,103 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    color: #FFF;
+    overflow-x: hidden;
+}
+
+.header {
+    background-image: url('z5q6asa8rvp61.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+.menu {
+    display: flex;
+    gap: 15px;
+    font-weight: 400;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #FFF;
+    padding: 8px 12px;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    background-color: rgba(255, 255, 255, 0.5); 
+    color: #111111;
+}
+
+.header-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: right;
+    margin-top:40rem ;
+}
+.subheader {
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: right;
+    margin-bottom: 0rem;
+}
+
+@media (max-width: 1000px) {
+    .header {
+        height: 80vh;
+    }
+
+    .menu {
+        font-size: 0.9rem;
+    }
+
+    .header-title {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 780px) {
+    .header {
+        height: 70vh;
+    }
+
+    .header-top {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+
+    .menu {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .header-title {
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,18 @@
+.entorno{
+    height: 500px;
+    width: 400px;
+    display: flex;
+    border: 1px;
+}
+
+.entorno div{
+    flex-direction: column;
+}
+.boton button{
+    background-color: rgb(058, 000, 000);
+    width: 200px;
+}
+.imagen img{
+    height: 200px;
+    width: 200px;
+}

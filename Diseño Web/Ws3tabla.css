@@ -1,0 +1,9 @@
+table{
+    border: 1px;
+}
+.origen{
+    background-color: grey;
+}
+.origen tr{
+    font: bold;
+}

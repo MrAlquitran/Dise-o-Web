@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="Porfolio.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Desarrollador de Aplicaciones Web</h1>
+        <nav class="menu">
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+    <main>
+        <section class="intro" id="sobre-mi">
+            <div class="content-wrapper">
+                <div class="content">
+                    <p>Hola, mi nombre es Pablo Peregrina Martín, soy Desarrollador de Aplicaciones Web.</p>
+                    <p>Tengo 20 años y soy de Granada, actualmente acabando el modulo de DAW y buscando trabajo.</p>
+                    <p>En un futuro me gustaria poder especializarme en el ambito de la ciberseguridad o los videojuegos.</p>
+                    <p>Trabajador y entusiasta cuando hay un buen equipo alrededor.</p>
+                </div>
+            </div>
+            <div class="image-container">
+                <img src="Imagenes/portfolio.png" alt="Foto de Perfil">
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </section>
+        
+
+        <section class="projects" id="proyectos">
+            <h2>Proyectos</h2>
+            <div class="project-carousel">
+                <span class="arrow left-arrow">⬅</span>
+                <div class="carousel-container">
+                    <div class="project"><img src="Imagenes/images (1).png" alt="Juego Pong"></div>
+                    <div class="project"><img src="Imagenes/image.png" alt="Juego eliminar bolas"></div>
+                    <div class="project"><img src="Imagenes/lista-compra-javascript-cookies.jpg" alt="Lista de la compra"></div>
+                    <div class="project"><img src="Imagenes/Pasapalabra.jpg" alt="Video edicion Pasapalabra"></div>
+                </div>
+                <span class="arrow right-arrow">➡</span>
+            </div>
+        </section>
+
+        <section class="skills" id="habilidades">
+            <h2>Habilidades</h2>
+            <div class="skills-list">
+                <div class="skills-column">
+                    <div class="skill">
+                        <span class="skill-name">JavaScript</span>
+                        <div class="skill-bar">
+                            <div class="skill-fill" style="width: 50%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span class="skill-name">HTML</span>
+                        <div class="skill-bar">
+                            <div class="skill-fill" style="width: 45%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span class="skill-name">PHP</span>
+                        <div class="skill-bar">
+                            <div class="skill-fill" style="width: 20%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span class="skill-name">CSS</span>
+                        <div class="skill-bar">
+                            <div class="skill-fill" style="width: 50%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-column">
+                    <div class="skill">
+                        <span class="skill-name">Java</span>
+                        <div class="skill-bar">
+                            <div class="skill-fill" style="width: 30%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span class="skill-name">SQL</span>
+                        <div class="skill-bar">
+                            <div class="skill-fill" style="width: 20%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span class="skill-name">Photoshop</span>
+                        <div class="skill-bar">
+                            <div class="skill-fill" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span class="skill-name">Sony Vegas</span>
+                        <div class="skill-bar">
+                            <div class="skill-fill" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="feedback" id="opiniones">
+            <h2>Añadir tu Opinión</h2>
+            <form id="feedback-form">
+                <div class="form-group">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" placeholder="Tu correo" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Tu Opinión:</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Escribe tu opinión aquí..." required></textarea>
+                </div>
+                <button type="submit">Enviar Opinión</button>
+            </form>
+            <div id="feedback-list">
+                <h3>Opiniones Recibidas</h3>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
